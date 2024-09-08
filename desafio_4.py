@@ -1,10 +1,10 @@
-def calcPercentual():
-    sp = 67836.43
-    rj = 36678.66
-    mg = 29229.88
-    es = 27165.48
-    outros = 19849.53
-    total = sp + rj + mg + es + outros
+def calcPercentual(): #função para calcular  porcentual
+    sp = 67836.43 #define os valor de SP
+    rj = 36678.66 #define os valor de RJ
+    mg = 29229.88 #define os valor de MG
+    es = 27165.48 #define os valor de ES
+    outros = 19849.53 #define os valor de Outros
+    total = sum(sp,rj,mg,es,outros) #soma todos os valores
     sp_percentual = (sp / total) * 100
     rj_percentual = (rj / total) * 100
     mg_percentual = (mg / total) * 100
