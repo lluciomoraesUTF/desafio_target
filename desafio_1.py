@@ -6,4 +6,4 @@ while K < INDICE: #criando loop que vai verificar se K é menor que INDICE
     K += 1 #Soma K mais 1 até K ser maior que 13
     SOMA += K #Adiciona K a soma até K ser maior que 13
 
-print (SOMA) #Imprime na tela o resultado final das interações
+print (SOMA) #Imprime na tela o resultado final das interações o resultado final será 91
